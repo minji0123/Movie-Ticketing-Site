@@ -4,42 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <!-- my CSS -->
     <link href="/css/style.css" rel="stylesheet">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&family=Do+Hyeon&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- font awesome -->
+    <link href="../fontAwesome/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <heaader class="nav-container">
-        
-    </heaader>
-    
-   <nav>
-       <div class="nav-item">EZEN</div>
+    <heaader class="heaader-container">
+        <div class="heaader-item heaader-main">EZEN</div>
+        <div class="header-sub">culture flex</div>
         <div style="flex-grow:1"></div>
-        <div class="nav-item">로그인</div>
-        <div class="nav-item">회원가입</div>
-        <div class="nav-item">고객센터</div>
-       
-   </nav>
-   
+        <div class="heaader-item">로그인</div>
+        <div class="heaader-item">회원가입</div>
+        <div class="heaader-item">고객센터</div>
+    </heaader>
+    <hr />
+    <nav class="nav-container">
+        <div class="nav-item nav-main">영화</div>
+        <div class="nav-item">극장</div>
+        <div class="nav-item">예매</div>
+        <div class="nav-item">혜택</div>
+
+        <input class="nav-search" type="text"><span class="material-icons-outlined">
+            search
+        </span>
+    </nav>
+
     <div class="main-background">
         <h4 class="main-title">Movie Booking</h4>
     </div>
-    
 
-    <article>
-        
-        <div >
-            제목
+
+    <article class="container article-container">
+        <div class="article-title">
+            현재 상영 영화 목록
+            <button class="article-btn">전체보기</button>
         </div>
-        <button class="article-btn-submit">확인</button>
-        <button >취소</button>
+        <div class="article-card">
+            <div class="article-card-each">
+                <img class="article-img" src="../img/sample2.png">
+                <div class="article-content">
+                    <p>영화이름</p>
+                    <p class="article-time">상영시간</p>
+                </div>
+            </div>
+            <div class="article-card-each">
+                <img class="article-img" src="../img/sample2.png">
+                <div class="article-content">
+                    <p>영화이름</p>
+                    <p class="article-time">상영시간</p>
+                </div>
+            </div>
+            <div class="article-card-each">
+                <img class="article-img" src="../img/sample2.png">
+                <div class="article-content">
+                    <p>영화이름</p>
+                    <p class="article-time">상영시간</p>
+                </div>
+            </div>
+            <div class="article-card-each">
+                <img class="article-img" src="../img/sample2.png">
+                <div class="article-content">
+                    <p>영화이름</p>
+                    <p class="article-time">상영시간</p>
+                </div>
+            </div>
+            <div class="article-card-each">
+                <img class="article-img" src="../img/sample2.png">
+                <div class="article-content">
+                    <p>영화이름</p>
+                    <p class="article-time">상영시간</p>
+                </div>
+            </div>
+        </div>
     </article>
-<!--    <aside></aside>-->
-    <footer></footer>
-    
+
+
+
+
+    <!--    <aside></aside>-->
+    <footer class="container footer-container">
+        <hr>
+        <p> ⓒ EzenProject
+            <a href="#">Github</a>
+            <a href="#">Blogs</a>
+        </p>
+
+    </footer>
+
     <script src="/javaScript/jquery-3.6.0.min.js"> </script>
     <script src="/javaScript/main.js"> </script>
-</body>
-
-</html>
+</body></html>
