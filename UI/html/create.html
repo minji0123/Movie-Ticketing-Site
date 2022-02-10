@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- my CSS -->
+    <link href="/css/style.css" rel="stylesheet">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&family=Do+Hyeon&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- font awesome -->
+    <link href="../fontAwesome/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <heaader class="heaader-container">
+        <div class="heaader-item heaader-main">EZEN</div>
+        <div class="header-sub">culture flex</div>
+        <div style="flex-grow:1"></div>
+        <div class="heaader-item">로그인</div>
+        <div class="heaader-item">회원가입</div>
+        <div class="heaader-item">고객센터</div>
+    </heaader>
+    <hr />
+    <nav class="nav-container">
+        <div class="nav-item nav-main">영화</div>
+        <div class="nav-item">극장</div>
+        <div class="nav-item">예매</div>
+        <div class="nav-item">혜택</div>
+
+        <input class="nav-search" type="text"><span class="material-icons-outlined">
+            search
+        </span>
+    </nav>
+
+    <div class="form-background">
+        <div class="form-white">
+            <form name="movie" method="get" action="#">
+                <h1>영화 등록</h1>
+                <div class="w-100">
+                    <p>영화 제목</p>
+                    <input class="form-input" type="text">
+                </div>
+                <div class="w-100">
+                    <p>출연진</p>
+                    <input class="form-input" type="text">
+                </div>
+
+                <div class="w-50">
+                    <p>감독</p>
+                    <input class="form-input" type="text">
+                </div>
+                <div class="w-50">
+                    <p>배급사</p>
+                    <input class="form-input" type="text">
+                </div>
+
+
+                
+                <div class="w-50">
+                    <p>상영시간</p>
+                    <input class="form-input" type="text" placeholder="           분">
+                </div>
+
+                <div class="w-50">
+                    <p>상영등급</p>
+                    <input class="form-input" type="text" placeholder="전체이용가">
+                </div>
+                
+
+                <div style="clear: both;"></div>
+
+               
+               
+                <div class="w-100">
+                    <p>개봉일</p>
+                    <input class="form-input" type="date" >
+                </div>
+
+               
+                <div class="w-100">
+                    <p>포스터 사진</p>
+                    <input class="form-input" type="file">
+                </div>
+
+               
+                <div class="w-100">
+                    <p>트레일러 영상 iframe</p>
+                    <input class="form-input" type="text" placeholder="src">
+                </div>
+
+
+                <div class="w-100">
+                    <p>줄거리</p>
+                    <textarea class="form-input form-long"></textarea>
+                </div>
+                <div>
+
+                    <div class="w-100">
+                        <button class="send-button">SEND</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="container footer-container">
+        <hr>
+        <p> ⓒ EzenProject
+            <a href="#">Github</a>
+            <a href="#">Blogs</a>
+        </p>
+
+    </footer>
+
+    <script src="/javaScript/jquery-3.6.0.min.js"> </script>
+    <script src="/javaScript/main.js"> </script>
+</body></html>
