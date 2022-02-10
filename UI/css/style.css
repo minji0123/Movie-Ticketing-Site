@@ -2,6 +2,7 @@ body {
     margin: 0px;
     font-family: 'Gowun Dodum', sans-serif;
     /*    font-family: 'Rowdies', cursive;*/
+    box-sizing: border-box;
 }
 
 div,
@@ -41,7 +42,7 @@ a{
 .heaader-item {
     margin-right: 25px;
     font-size: 20px;
-
+    cursor: pointer;    
 }
 
 .nav-container {
@@ -49,28 +50,33 @@ a{
     height: 40px;
     align-items: center;
     padding: 10px;
+    justify-content: center;
 
 }
 
 .nav-main {
-    margin-left: 635px;
+/*    margin-left: 800px;*/
+    
 }
 
 .nav-item {
-    margin-right: 30px;
+    margin: 60px;
     font-size: 20px;
+    cursor: pointer;
 }
 
+/*
 .nav-search {
-    margin-left: 300px;
+    float:right;
     padding: 5px;
     margin-right: 10px;
 }
+*/
 
 .main-background {
     width: 100%;
     height: 500px;
-    background-image: url(/img/background4.png);
+    background-image: url(/img/background2.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -86,16 +92,15 @@ a{
     margin-top: 100px;
     text-align: center;
     letter-spacing: 4px;
-    font-family: 'Rowdies', cursive;
-    /*    font-family: 'Black Han Sans', sans-serif;*/
+/*    font-family: 'Rowdies', cursive;*/
+/*        font-family: 'Black Han Sans', sans-serif;*/
 }
 
-.para-letter {
-    color: aliceblue;
+.para-title {
+    color: white;
     font-size: 20px;
-    font-family: sans-serif;
-    letter-spacing: 2px;
-    font-weight: 600;
+    letter-spacing: 7px;
+/*    font-weight: 600;*/
     text-align: center;
 }
 
@@ -119,6 +124,8 @@ a{
     font-size: 30px;
     margin-bottom: 500px;
 }
+
+
 .article-title{
     margin-left: 30px;
 }
@@ -146,3 +153,60 @@ a{
 }
 
 
+.article-2-img{
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.article-2-table{
+    
+}
+
+
+
+.form-background {
+/*    background-color: black;*/
+    padding: 30px;
+}
+
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+/*    max-width: 600px;*/
+    margin: auto;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-long {
+    height: 50%;
+    font-size: 17px;
+}
+
+.send-button {
+    width: 30%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
