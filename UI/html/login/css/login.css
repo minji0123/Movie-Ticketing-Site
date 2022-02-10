@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+.login-header {
+    margin-top: 80px;
+    
+}
+
+.login-header-inner {
+    background-color: lemonchiffon;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.login-box {
+    margin-top: 80px;
+}
+
+.login-box-inner {
+    padding: 50px;
+    background-color: lightgoldenrodyellow;
+
+}
