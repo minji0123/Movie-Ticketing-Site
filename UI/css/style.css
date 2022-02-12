@@ -159,8 +159,19 @@ a{
     margin-top: 20px;
     margin-left: 20px;
 }
-.article-2-table{
-    
+
+.float-l {
+    font-size: 20px;
+    float: left;
+}
+.w-40-r {
+    font-size: 20px;
+    float: right;
+}
+
+.img-style{
+    width:80%; 
+    border-radius: 20px;
 }
 
 
