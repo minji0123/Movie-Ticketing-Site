@@ -36,3 +36,15 @@ ALTER TABLE movie_info
 --INSERT INTO movie (movie_cd, movie_title, movie_url, trailer_url, release_date,running_time, film_rate)
 --    VALUES(movie_seq.NEXTVAL, '영화제목','링크1', '링크2', '2022/02/16' ,100, 5 );
     
+CREATE TABLE member( 
+    mem_id varchar2(50),
+    mem_pw varchar2(2000),
+    mem_birth date,
+    mem_address varchar2(100),
+    mem_phone varchar(12), -- -포함
+    join_date date,
+    mem_salt varchar2(250) -- 비번 salt 암호화
+);
+
+ALTER TABLE member
+    ADD CONSTRAINT member_mem_id_pk PRIMARY KEY(mem_id);
