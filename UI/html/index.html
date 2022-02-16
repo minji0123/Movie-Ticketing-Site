@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <!--
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
+    <title>EzenMovie</title>
+    
     <!-- my CSS -->
     <link href="../css/style.css" rel="stylesheet">
 
@@ -20,12 +25,12 @@
 <body>
 
     <heaader class="heaader-container">
-        <div class="heaader-item heaader-main">EZEN</div>
-        <div class="header-sub">culture flex</div>
+        <div class="heaader-item heaader-main"><a href="index.html">EZEN</a></div>
+        <div class="header-sub">culture plex</div>
         <div style="flex-grow:1"></div>
-        <div class="heaader-item">로그인</div>
-        <div class="heaader-item">회원가입</div>
-        <div class="heaader-item">고객센터</div>
+        <div class="heaader-item"><a href="login.html"> 로그인</a></div>
+        <div class="heaader-item"><a href="signup.html">회원가입</a></div>
+        <div class="heaader-item"><a href="create.html">관리자</a></div>
 
     </heaader>
     <hr />
@@ -93,20 +98,16 @@
         </div>
         <div>
             <div class="article-2-img">
-                <img style="width: 80%; border-radius: 20px;" src="../img/background2.png">
+                <img class="img-style" src="../img/background2.png">
             </div>
-            <table class="article-2-table">
-                <th>ddd</th>
-                <th>ddd</th>
-                <tr>
-                    <td>ddd</td>
-                    <td>ddd</td>
-                </tr>
-                <tr>
-                    <td>ddd</td>
-                    <td>ddd</td>
-                </tr>
-            </table>
+            
+            <div>
+                <div class="">
+                    <div class="float-l">SUITE CINEMA</div>
+                    <div class="w-40-r">호텔 컨셉의 프리미엄관</div>
+                </div>
+                
+            </div>
 
         </div>
     </article>
@@ -142,11 +143,14 @@
 
     <footer class="container footer-container">
         <hr>
-        <p> ⓒ EzenProject
-            <a href="#">Github</a>
-            <a href="#">Blogs</a>
+        <p>
+            소스 코드 확인하기: <a href="#">Github</a>
         </p>
-
+        <p>
+        참여자: 김영우, 권철주, 가민지
+        </p>
+        <p> ⓒ EzenProject All Rights Reserved
+        </p>
     </footer>
 
     <script src="../javaScript/jquery-3.6.0.min.js"> </script>
