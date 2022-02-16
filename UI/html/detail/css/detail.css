@@ -1,0 +1,39 @@
+.detail-body {
+    margin-top: 25px;
+}
+.info-box {
+    /* border: 1px solid #ccc; 지울거임 */
+    width: 100%;
+    max-width: 375px;
+    height: 800px;
+    padding: 25px;
+    float: left;
+}
+.info-box img {
+    width: 300px;
+    height: 400px;
+}
+.video-box {
+    /* border: 1px solid #ccc; 지울거임 */
+    width: 100%;
+    max-width: 1100px;
+    height: 800px;
+    padding: 25px;
+    float: right;
+}
+.video-box video{
+    width: 900px;
+    height: 500px;
+}
+.detail-end {
+    padding: 15px;
+    clear: both;
+}
+.ticketing-btn input{
+    width: 25%;
+    border-radius: 25px;
+    padding: 8px;
+    border: none;
+    background-color: grey;
+    cursor: pointer;
+}

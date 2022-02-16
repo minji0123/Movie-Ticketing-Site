@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- my CSS -->
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../detail/css/detail.css" rel="stylesheet">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&family=Do+Hyeon&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- font awesome -->
+    <link href="../../fontAwesome/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <heaader class="heaader-container">
+        <div class="heaader-item heaader-main">EZEN</div>
+        <div class="header-sub">culture flex</div>
+        <div style="flex-grow:1"></div>
+        <div class="heaader-item">로그인</div>
+        <div class="heaader-item">회원가입</div>
+        <div class="heaader-item">고객센터</div>
+    </heaader>
+    <hr />
+    <nav class="nav-container">
+        <div class="nav-item nav-main">영화</div>
+        <div class="nav-item">극장</div>
+        <div class="nav-item">예매</div>
+        <div class="nav-item">이벤트</div>
+    </nav>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="detail-body"> <!-- 제일 큰 틀-->
+
+        <div class="info-box"> <!-- 상세정보 박스-->
+            <div class="detail-title">
+                <h1>영화 상세 정보</h1>
+            </div>
+            <div class="movie-intro">
+                <img src="images/poster.jpg">
+                <p>감독 : 김영우</p>
+                <p>출연진: 가민지, 권철주</p>
+                <p>배급사 : 이젠아카데미</p>
+                <p>상영시간 : 100분</p>
+            </div>
+            <div class="ticketing-btn">
+                <input type="submit" name="ticketing" value="예매하기">
+            </div>
+        </div>
+        
+        <div class="video-box"> <!-- 비디오 박스 -->
+            <div>
+                <div class="video-title">
+                    <h1>예고편</h1>
+                </div>
+                <video src="../detail/video/video.mp4" controls>
+                </video>
+                <h3>줄거리</h3>
+                <p>
+                    세상을 바꾸기 위해 도전하는 정치인 ‘김운범’ 앞에 그와 뜻을 함께하고자 선거 전략가 ‘서창대’가 찾아온다. 
+                    열세인 상황 속에서 서창대는 아무도 상상하지 못한 선거 전략을 펼치고 ‘김운범’은 선거에 연이어 승리하며, 
+                    당을 대표하는 대통령 후보까지 올라서게 된다. 대통령 선거를 향한 본격적인 행보가 시작되고 그들은 당선을 위해 총력을 기울인다. 
+                    그러던 중 ‘김운범’ 자택에 폭발물이 터지는 사건이 발생하고 용의자로 ‘서창대’가 지목되면서 둘의 관계는 새로운 국면을 맞이하게 되는데... 
+                    치열한 선거판, 그 중심에 있던 두 남자의 이야기가 시작된다!
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <div class="detail-end"></div> <!-- clear both -->
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <footer class="container footer-container">
+        <hr>
+        <p> ⓒ EzenProject
+            <a href="#">Github</a>
+            <a href="#">Blogs</a>
+        </p>
+    </footer>
+
+    <script src="../javaScript/jquery-3.6.0.min.js"> </script>
+    <script src="../javaScript/main.js"> </script>
+</body></html>
